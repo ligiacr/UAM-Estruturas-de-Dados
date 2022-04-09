@@ -32,7 +32,7 @@ public class atividade1 {
 		System.out.println();
 
 //		Tenta inserir o próximo nome digitado, que excede a capacidade do array e lança a exceção.
-		for (; aux < 29; aux++) {
+		for (; aux < 30; aux++) {
 			System.out.println("Insira o nome do aluno número " + (aux + 1) + ":");
 
 			nomes[aux] = teclado.nextLine();
